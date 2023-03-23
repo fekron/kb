@@ -25,26 +25,26 @@ concept_ramen
             -> concept_soybean;; // ростки сои
             -> concept_sugar;;
             -> concept_cilantro;; // кинза
-            -> concept_chicken_broth;; // куриный суп
+            -> concept_chicken_broth;; // куриный бульон
         *);;
     *);;
 
 concept_ramen
     <- rrel_instruction: ... (*
         => nrel_idtf: [ Рецепт ( Рамен ) ] (* <-lang_ru;; *);;
-        /*<= nrel_sc_text_translation: ... (*
-            -> rrel_example: "file://html//ramen recipe.html"(* <- lang_ru;; *);;
-        *);;*/
+        <= nrel_sc_text_translation: ... (*
+            -> rrel_example: "file://html//ramen recipe.html";;
+        *);;
     *);;
 
 concept_ramen
     <- rrel_key_sc_element: ... (*
         <- illustration;;
-        /*<= nrel_sc_text_translation: ... (*
+        <= nrel_sc_text_translation: ... (*
             -> rrel_example: "file://photo//ramen.jpg"
             (*
                 => nrel_format: format_jpg;;
             *);;
-        *);;*/
+        *);;
     *);;
 
