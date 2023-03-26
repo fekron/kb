@@ -8,5 +8,9 @@ subject_domain_of_african_cuisine
     concept_asian_cuisine;
 
 ->rrel_not_maximum_studied_object_class: //здесь вы уже пишите названия ваших блюд
+    concept_dango;
+    concept_misoshiru;
+    concept_omurice;
+    concept_oyakodon;
     concept_ramen;
-    concept_oyakodon;;
+    concept_salmon_sashimi;;
